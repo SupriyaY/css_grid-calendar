@@ -1,0 +1,30 @@
+ .day-of-week,
+ .date-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+} 
+
+/* Places dates in the correct day */
+.date-grid button:first-child{
+    grid-column: 2;
+}
+
+.day-of-week,
+.month-indicator{
+    text-align: center;
+}
+
+
+/* button{
+    height: 100px;
+    width: 150px;
+} */
+
+
+
+
+
+
+
+
+
